@@ -47,3 +47,59 @@ The project provides:
 pip install osmnx networkx folium geopy matplotlib
 jupyter notebook week1_AI_Green_Transportation.ipynb
 
+## 🟡 Week 2 – Low-Emission Route Optimization & CO₂ Analysis
+
+### 🎯 Objective
+Enhance the Week-1 routing system by integrating sustainability:
+- Calculate and compare CO₂ emissions
+- Add low-emission route based on road speed & congestion factors
+- Provide visual interpretation of route eco-efficiency
+
+### 🚦 Features Implemented
+✔ Smart user input for any location in Bengaluru  
+✔ Shortest route based on distance  
+✔ Low-emission route based on:
+- Road category
+- Congestion levels
+- Vehicle efficiency  
+✔ Emission calculation using real-world logic  
+✔ Two maps for route visualization:
+- Blue = Shortest Route
+- Green = Low-Emission Route  
+✔ Comparison charts:
+- Distance vs Emission  
+✔ **Combined dual-route map** (most important visualization)
+
+### 🧠 Technical Highlights
+| Component | Tech Used |
+|----------|-----------|
+| Map Data | OSMnx + OpenStreetMap |
+| Routing Model | NetworkX |
+| Map Visualization | Folium |
+| Charts | Matplotlib |
+| Emission Modeling | Speed & road-category based factors |
+
+### 📂 Week-2 Project Structure
+week2/
+├─ week2_AI_Green_Transportation.ipynb
+├─ week2_shortest_route_map.png
+├─ week2_low_emission_route_map.png
+├─ week2_distance_comparison.png
+├─ week2_emission_comparison.png
+└─ week2_combined_route_image.png
+
+
+### 📌 How to Run
+pip install osmnx networkx folium matplotlib geopy scikit-learn
+jupyter notebook week2_AI_Green_Transportation.ipynb
+
+
+### 📊 Output Summary
+- Low-emission route emits **less CO₂** compared to shortest route  
+- Visual improvement in sustainability showcased  
+- Interactive & static maps demonstrate real-world route differences
+
+---
+
+🔹 **Week-2 completed successfully** with sustainability-based optimization integrated into the project.
+🔹 All deliverables uploaded to the `week2/` folder in this repository.
