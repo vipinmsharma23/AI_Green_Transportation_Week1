@@ -1,37 +1,47 @@
-# AI_Green_Transportation_Week1
-Week 1: Shortest Route Mapping in Bengaluru using OSMNX
+# AI Green Transportation 🚦🌱
+AICTE Internship Project — Sustainable Transportation using AI
 
-# AI Green Transportation – Week 1
+---
 
-This repository contains the Week 1 milestone for my AICTE internship project **AI Green Transportation**.
+## 📌 Project Overview
+This project aims to reduce carbon emissions in urban transportation by suggesting the most eco-friendly routes between two locations in Bengaluru using real road network data.
 
-## 🚦 Week 1 Objective
-- Select a city (Bengaluru, India)
-- Allow user to enter origin and destination
-- Download road network from OpenStreetMap using OSMNX
-- Compute **shortest driving route**
-- Generate **interactive HTML map** output
+The project provides:
+- Interactive shortest-route & low-emission route maps
+- CO₂ emission comparison charts
+- Real usable route planning for any location within Bengaluru
 
-## 🗺️ City and Sample Inputs
-- **City:** Bengaluru, Karnataka, India  
-- Users can enter any valid location inside Bengaluru, e.g.:
-  - Majestic Bengaluru → Electronic City Bengaluru
-  - MG Road Bengaluru → Silk Board Bengaluru
+---
 
-## 🔧 Tech Stack
-- Python
-- OSMNX (road networks + routing)
-- NetworkX (graph shortest path)
-- Folium (interactive maps)
-- Matplotlib
-- Geopy (optional user input geocoding)
+## 📆 Weekly Progress
 
-## 📂 Files
-| File | Description |
-|------|-------------|
-| `week1_AI_Green_Transportation.ipynb` | Shortest path computation + routing |
-| `maps_week1/week1_shortest_route_map_bangalore.html` | Interactive route map |
+### 🟢 Week 1 — Shortest Route Planner
+- Bengaluru road network downloaded from OpenStreetMap
+- Users can input any valid location in Bengaluru
+- Shortest driving route calculated using NetworkX
+- Generated interactive HTML map using Folium
+📂 Files located inside `week1/` folder
 
+### 🟡 Week 2 — Low-Emission Routing + CO₂ Analysis *(Current Week)*
+- Added emission-weighted routing
+- Calculated & compared CO₂ emissions
+- Generated distance & emission bar charts
+- Interactive **low emission route** map added
+📂 Files will be inside `week2/` folder
+
+---
+
+## 🧠 Tech Stack
+| Tool | Purpose |
+|------|---------|
+| Python | Implementation |
+| OSMNX | Maps + routing |
+| NetworkX | Graph calculations |
+| Folium | Interactive maps |
+| Matplotlib | Graphs |
+| Geopy | Geocoding |
+
+---
 ## ▶️ How to Run
 ```bash
 pip install osmnx networkx folium geopy matplotlib
